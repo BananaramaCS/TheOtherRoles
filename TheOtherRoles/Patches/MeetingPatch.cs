@@ -38,7 +38,8 @@ namespace TheOtherRoles.Patches {
                     }
                 }
                 // Swapper swap votes
-                if (Swapper.swapper != null && !Swapper.swapper.isDead) { // Don't swap if swapper is dead
+                if (Swapper.swapper != null) { // Don't swap if swapper is dead
+                // if (Swapper.swapper != null && !Swapper.swapper.isDead) { // Don't swap if swapper is dead
                     PlayerVoteArea swapped1 = null;
                     PlayerVoteArea swapped2 = null;
                     foreach (PlayerVoteArea playerVoteArea in __instance.playerStates) {
@@ -111,8 +112,8 @@ namespace TheOtherRoles.Patches {
             
             static bool Prefix(MeetingHud __instance, Il2CppStructArray<MeetingHud.VoterState> states) {
                 // Swapper swap
-                if (Swapper.swapper != null && !Swapper.swapper.isDead) { // Don'T swap if dead
-                    PlayerVoteArea swapped1 = null;
+//              if (Swapper.swapper != null && !Swapper.swapper.isDead) { // Don'T swap if dead
+                        PlayerVoteArea swapped1 = null;
                     PlayerVoteArea swapped2 = null;
                     foreach (PlayerVoteArea playerVoteArea in __instance.playerStates) {
                         if (playerVoteArea.TargetPlayerId == Swapper.playerId1) swapped1 = playerVoteArea;
@@ -123,7 +124,7 @@ namespace TheOtherRoles.Patches {
                         __instance.StartCoroutine(Effects.Slide3D(swapped1.transform, swapped1.transform.localPosition, swapped2.transform.localPosition, 1.5f));
                         __instance.StartCoroutine(Effects.Slide3D(swapped2.transform, swapped2.transform.localPosition, swapped1.transform.localPosition, 1.5f));
                     }
-                }
+                //}
 
 
                 __instance.TitleText.text = DestroyableSingleton<TranslationController>.Instance.GetString(StringNames.MeetingVotingResults, new Il2CppReferenceArray<Il2CppSystem.Object>(0));
