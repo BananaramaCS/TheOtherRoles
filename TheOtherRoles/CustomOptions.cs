@@ -368,7 +368,7 @@ namespace TheOtherRoles {
             if (id != 0) {
                 entry = TheOtherRolesPlugin.Instance.Config.Bind($"Preset{preset}", id.ToString(), defaultSelection);
                 selection = Mathf.Clamp(entry.Value, 0, selections.Length - 1);
-            }
+            } 
             options.Add(this);
         }
 
