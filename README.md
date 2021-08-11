@@ -9,34 +9,11 @@ Even more roles are coming soon! :)
 
 **This fork is just a small adaptation of the Among Us mod *TheOtherRoles* by [Eisbison](https://github.com/Eisbison/TheOtherRoles) in order to include our very own custom hats. This repository is only meant for a small group of friends with more custom hats.**
 
-| Impostors | Crewmates | Neutral | Secondary |
-|----------|-------------|-----------------|----------------|
-| [Evil Mini](#mini) | [Nice Mini](#mini) | [Arsonist](#arsonist) | [Lover](#lovers) |
-| [Evil Guesser](#guesser) | [Nice Guesser](#guesser) | [Jester](#jester) |  |
-| [Bounty Hunter](#bounty-hunter) | [Detective](#detective) | [Jackal](#jackal) |  |
-| [Camouflager](#camouflager) | [Engineer](#engineer) | [Sidekick](#sidekick) |  |
-| [Cleaner](#cleaner) | [Hacker](#hacker) |  |  |
-| [Eraser](#eraser) | [Lighter](#lighter) |  |  |
-| [Godfather (Mafia)](#mafia) | [Mayor](#mayor) |  |  |
-| [Mafioso (Mafia)](#mafia) | [Medic](#medic) |  |  |
-| [Janitor (Mafia)](#mafia)  | [Security Guard](#security-guard) |  |  |
-| [Morphling](#morphling) | [Seer](#seer) |  |  |
-| [Trickster](#trickster) | [Sheriff](#sheriff) |  |  |
-| [Vampire](#vampire) | [Shifter](#shifter) |  |  |
-| [Warlock](#warlock) | [Snitch](#snitch) |  |  |
-|  | [Spy](#spy) |  |  |
-|  | [Swapper](#swapper) |  |  |
-|  | [Time Master](#time-master) |  |  |
-|  |  [Tracker](#tracker) |  |  |
-|  |  [Bait](#bait) |  |
-
-The [Role Assignment](#role-assignment) sections explains how the roles are being distributed among the players.
-
 Go to [Releases/Changelog](#releases-and-changelog) or [Credits/Resources](#credits-and-resources).
 
 # Installation
 
-Step-by-step instructions to install the mod into Among Us.
+Step-by-step instructions to install the mod for Among Us.
 
 ### Windows
 
@@ -68,9 +45,35 @@ Not working? You might want to install the dependency [vc_redist](https://aka.ms
 </details>
   
 # Colors
+
+<details>
+  <summary> Show all colors. </summary>
+
 ![TOR Colors](./Images/TOR_colors.jpg)
+  </details>
 
 # Roles
+
+| Impostors | Crewmates | Neutral | Secondary |
+|----------|-------------|-----------------|----------------|
+| [Evil Mini](#mini) | [Nice Mini](#mini) | [Arsonist](#arsonist) | [Lover](#lovers) |
+| [Evil Guesser](#guesser) | [Nice Guesser](#guesser) | [Jester](#jester) |  |
+| [Bounty Hunter](#bounty-hunter) | [Detective](#detective) | [Jackal](#jackal) |  |
+| [Camouflager](#camouflager) | [Engineer](#engineer) | [Sidekick](#sidekick) |  |
+| [Cleaner](#cleaner) | [Hacker](#hacker) |  |  |
+| [Eraser](#eraser) | [Lighter](#lighter) |  |  |
+| [Godfather (Mafia)](#mafia) | [Mayor](#mayor) |  |  |
+| [Mafioso (Mafia)](#mafia) | [Medic](#medic) |  |  |
+| [Janitor (Mafia)](#mafia)  | [Security Guard](#security-guard) |  |  |
+| [Morphling](#morphling) | [Seer](#seer) |  |  |
+| [Trickster](#trickster) | [Sheriff](#sheriff) |  |  |
+| [Vampire](#vampire) | [Shifter](#shifter) |  |  |
+| [Warlock](#warlock) | [Snitch](#snitch) |  |  |
+|  | [Spy](#spy) |  |  |
+|  | [Swapper](#swapper) |  |  |
+|  | [Time Master](#time-master) |  |  |
+|  |  [Tracker](#tracker) |  |  |
+|  |  [Bait](#bait) |  |
 
 ## Role Assignment
 <details>
@@ -108,6 +111,8 @@ The Janitor is an Impostor who cannot kill nor sabotage, but they can hide dead 
 | Janitor Cooldown | -
 -----------------------
 
+[Go back up](#roles)
+
 ## Morphling
 ### **Team: Impostors**
 The Morphling is an Impostor which can additionally scan the appearance of a player. After an arbitrary time they can take on that appearance for 10s.
@@ -127,6 +132,8 @@ The Morphling is an Impostor which can additionally scan the appearance of a pla
 | Morphling Cooldown | -
 | Morph Duration | Time the Morphling stays morphed
 -----------------------
+
+[Go back up](#roles)
 
 ## Camouflager
 ### **Team: Impostors**
@@ -149,6 +156,9 @@ are hidden and all players have the same color.\
 | Camo Duration | Time players stay camouflaged
 -----------------------
 
+
+[Go back up](#roles)
+
 ## Vampire
 ### **Team: Impostors**
 The Vampire is an Impostor, that can bite other player. Bitten players die after a configurable amount of time.\
@@ -168,6 +178,9 @@ If a victim is near a garlic, the "Bite Button" turns into the default "Kill But
 | Vampire Cooldown | Sets the kill/bite cooldown
 | Vampire Can Kill Near Garlics | The Vampire can never bite when his victim is near a garlic. If this option is set to true, he can still perform a normal kill there.
 -----------------------
+
+
+[Go back up](#roles)
 
 ## Eraser
 ### **Team: Impostors**
@@ -193,6 +206,9 @@ ex Lover surviving as the partnership was erased before. Also a Jester win would
 | Eraser Can Erase Anyone | If set to false, he can't erase the Spy and other Impostors
 -----------------------
 
+
+[Go back up](#roles)
+
 ## Trickster
 ### **Team: Impostors**
 The Trickster is an Impostor that can place 3 jack-in-the-boxes that are invisible at first to other players. \
@@ -212,6 +228,9 @@ If the boxes are converted to a vent network, the Trickster gains a new ability 
 | Trickster Lights Out Duration | Duration after which the light is automatically restored
 -----------------------
 
+
+[Go back up](#roles)
+
 ## Cleaner
 ### **Team: Impostors**
 The Cleaner is an Impostor who has the ability to clean up dead bodies. \
@@ -227,6 +246,8 @@ The Cleaner is an Impostor who has the ability to clean up dead bodies. \
 | Cleaner Cooldown | Cooldown for cleaning dead bodies
 -----------------------
 
+
+[Go back up](#roles)
 
 ## Warlock
 ### **Team: Impostors**
@@ -249,6 +270,8 @@ The Warlock can still perform normal kills, but the two buttons share the same c
 | Warlock Root Time | Time the Warlock is rooted in place after killing using the curse
 -----------------------
 
+
+[Go back up](#roles)
 
 ## Bounty Hunter
 ### **Team: Impostors**
@@ -278,6 +301,9 @@ Depending on the options, there'll be an arrow pointing towards the current targ
 -----------------------
 
 
+[Go back up](#roles)
+
+
 ## Guesser
 ### **Team: Crewmates or Impostors**
 The Guesser can be a Crewmate or an Impostor (depending on the settings).\
@@ -302,6 +328,9 @@ You can only shoot during the voting time.
 | Guesser Number Of Shots Per Meeting| -
 
 -----------------------
+
+
+[Go back up](#roles)
 
 ## Lovers
 ### **Team: Lovers (and secondary team)**
@@ -330,6 +359,9 @@ If there's an team Impostor/Jackal Lover in the game, the tasks of a Crewmate Lo
 -----------------------
 
 
+[Go back up](#roles)
+
+
 ## Sheriff
 ### **Team: Crewmates**
 The Sheriff has the ability to kill Impostors.
@@ -347,6 +379,9 @@ If they try to kill a Crewmate, they die instead.
 | Neutrals Can Die To Sheriff | -
 -----------------------
 
+
+[Go back up](#roles)
+
 ## Jester
 ### **Team: Neutral**
 The Jester does not have any tasks. They win the game as a solo, if they get voted out during a meeting.
@@ -358,6 +393,9 @@ The Jester does not have any tasks. They win the game as a solo, if they get vot
 | Jester can call emergency meeting | Option to disable the emergency button for the Jester
 | Jester can sabotage | Option to allow the Jester to sabotage
 -----------------------
+
+
+[Go back up](#roles)
 
 ## Arsonist
 ### **Team: Neutral**
@@ -374,6 +412,9 @@ After dousing everyone alive the Arsonist can ignite all the players which resul
 | Arsonist Douse Duration | The time it takes to douse a player
 -----------------------
 
+
+[Go back up](#roles)
+
 ## Seer
 ### **Team: Crewmates**
 The Seer has two abilities (one can activate one of them or both in the options).
@@ -388,6 +429,9 @@ The Seer gets a blue flash on his screen, if a player dies somewhere on the map.
 | Seer Limit Soul Duration | Toggle if souls should turn invisible after a while
 | Seer Soul Duration | Sets how long it will take the souls to turn invisible after a meeting
 -----------------------
+
+
+[Go back up](#roles)
 
 ## Engineer
 ### **Team: Crewmates**
@@ -405,6 +449,9 @@ you can double click on the tasks instead.
 |----------|:-------------:|
 | Engineer Spawn Chance | -
 -----------------------
+
+
+[Go back up](#roles)
 
 ## Detective
 ### **Team: Crewmates**
@@ -427,6 +474,9 @@ The Detective's other feature shows when they report a corpse: they recieve clue
 | Time Where Detective Reports Will Have Color Type| The amount of time that the Detective will have to report the body since death to get the killer's color type. |
 -----------------------
 
+
+[Go back up](#roles)
+
 ## Lighter
 ### **Team: Crewmates**
 The Lighter can turn on his Lighter every now and then, which increases his vision by a costumizable amount.
@@ -440,6 +490,9 @@ The Lighter can turn on his Lighter every now and then, which increases his visi
 | Lighter Cooldown | -
 | Lighter Duration | -
 -----------------------
+
+
+[Go back up](#roles)
 
 ## Mini
 ### **Team: Crewmates or Impostors**
@@ -465,6 +518,9 @@ The Mini cannot be killed until it turns 18 years old, however it can be voted o
 | Mini  | Mini Growing Up Duration
 -----------------------
 
+
+[Go back up](#roles)
+
 ## Medic
 ### **Team: Crewmates**
 The Medic can shield (highlighted by an outline around the player) one player per game, which makes the player unkillable.\
@@ -489,6 +545,9 @@ The Medic's other feature shows when they report a corpse: they will see how lon
 | Shield Will Be Set After Next Meeting | - | True/false
 -----------------------
 
+
+[Go back up](#roles)
+
 ## Mayor
 ### **Team: Crewmates**
 The Mayor leades the Crewmates by having a vote that counts twice.\
@@ -499,6 +558,9 @@ The Mayor can always use his meeting, even if the maximum number of meetings was
 |----------|:-------------:|
 | Mayor Spawn Chance | -
 -----------------------
+
+
+[Go back up](#roles)
 
 ## Hacker
 ### **Team: Crewmates**
@@ -519,6 +581,9 @@ Otherwise he sees the same information as everyone else.
 | Hacker Duration | Sets how long the "Hacker mode" remains active
 | Hacker Only Sees Color Type | Sets if the Hacker sees the player colors on the admin table or only white/gray (for Lighter and darker colors)
 -----------------------
+
+
+[Go back up](#roles)
 
 
 ## Shifter
@@ -543,6 +608,9 @@ can only use them, if the previous player did not used them before)
 | Shifter Spawn Chance | -
 | Shifter Shifts Modifiers | Sets if Lovers and/or Medic Shield will be shifted
 -----------------------
+
+
+[Go back up](#roles)
 
 ## Time Master
 ### **Team: Crewmates**
@@ -569,6 +637,9 @@ The Time Master won't be affected by the rewind.\
 | Time Master Shield Duration |
 -----------------------
 
+
+[Go back up](#roles)
+
 ## Swapper
 ### **Team: Crewmates**
 During meetings the Swapper can exchange votes that two people get (i.e. all votes
@@ -583,6 +654,9 @@ and can't fix lights and comms.
 | Swapper can call emergency meeting | Option to disable the emergency button for the Swapper
 | Swapper can only swap others | Sets whether the Swapper can swap himself or not
 -----------------------
+
+
+[Go back up](#roles)
 
 ## Tracker
 ### **Team: Crewmates**
@@ -599,6 +673,9 @@ The arrow updates it's position every few seconds (configurable).
 | Tracker Reset Target After Meeting | -
 -----------------------
 
+
+[Go back up](#roles)
+
 ## Snitch
 ### **Team: Crewmates**
 When the Snitch finishes all the tasks, arrows will appear (only visible to the Snitch) that point to the Impostors (depending on the options also to members of team Jackal).
@@ -612,6 +689,9 @@ When the Snitch has one task left (configurable) the Snitch will be revealed to 
 | Include Team Jackal | -
 | Use Different Arrow Color For Team Jackal | -
 -----------------------
+
+
+[Go back up](#roles)
 
 ## Jackal
 ### **Team: Jackal**
@@ -659,6 +739,9 @@ If both Impostors and Jackals are in the game the game continues even if all Cre
 | Jackal and Sidekick have Impostor vision | - |
 -----------------------
 
+
+[Go back up](#roles)
+
 ## Sidekick
 ### **Team: Jackal**
 Gets assigned to a player during the game by the "Create Sidekick Action" of the Jackal and joins the Jackal in his quest to eliminate all other players.\
@@ -678,6 +761,9 @@ Upon the death of the Jackal (depending on the options), he might get promoted t
 | Sidekick can use vents | Yes/No |
 -----------------------
 
+
+[Go back up](#roles)
+
 ## Spy
 ### **Team: Crewmates**
 The Spy is a Crewmate, which has no special abilities.\
@@ -696,6 +782,9 @@ You can set whether the Sheriff can kill the Spy or not (in order to keep the li
 | Spy Can Enter Vents | Allow the Spy to enter/exit vents (but not actually move to connected vents)
 | Spy Has Impostor Vision | Give the Spy the same vision as the Impostors have
 -----------------------
+
+
+[Go back up](#roles)
 
 ## Security Guard
 ### **Team: Crewmates**
@@ -719,6 +808,9 @@ The vents will be sealed after the next meeting, players can't enter or exit sea
 | Number Of Screws Per Cam | The number of screws it takes to place a camera
 | Number Of Screws Per Vent | The number of screws it takes to seal a vent
 -----------------------
+
+
+[Go back up](#roles)
 
 ## Bait
 ### **Team: Crewmates**
