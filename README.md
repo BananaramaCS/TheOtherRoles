@@ -75,6 +75,8 @@ Not working? You might want to install the dependency [vc_redist](https://aka.ms
 |  |  [Tracker](#tracker) |  |  |
 |  |  [Bait](#bait) |  |
 
+![RoleOverview](./Images/TOR_roles.jpg)
+
 ## Role Assignment
 <details>
   <summary> Click to expand. </summary>
