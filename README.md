@@ -32,37 +32,11 @@ Even more roles are coming soon! :)
 
 The [Role Assignment](#role-assignment) sections explains how the roles are being distributed among the players.
 
-# Releases & Changelog
-| Among Us - Version| Mod Version | Link |
-|----------|-------------|-----------------|
-| 2021.6.30s| v2.8.1| [Download](https://github.com/BananaramaCS/TheOtherRoles/releases/download/v2.8.1/TheOtherRoles.zip)
-| 2021.6.30s| v2.7.3| [Download](https://github.com/BananaramaCS/TheOtherRoles/releases/download/v2.7.3/TheOtherRoles.zip)
-
-<details>
-  <summary>Click to show the Changelog</summary>
-
-**Hotfix 2.8.1**
-- Fixed a game breaking bug where killing the Bait resulted in a ban of the Bait
-
-**Version 2.8.0**
-- **New Role:** [Bait](#bait) created by [Mallöris](https://github.com/Mallaris) 
-- Added Tracker Option: "Tracker Reset Target After Meeting" (feature created by [MaximeGillot](https://github.com/MaximeGillot))
-- Added Snitch Options: "Include Team Jackal" and "Use Different Arrow Color For Team Jackal" (feature created by [Mallöris](https://github.com/Mallaris))
-- Added Medic Option: "Shield Will Be Set After Next Meeting" (feature created by [Mallöris](https://github.com/Mallaris))
-
-**Version 2.7.3**
-- Updated to Among Us v2021.6.30
-- Updated BepInEx version
-- Updated Credentials
-- Fixed some Colors being considered darker, when they should be lighter
-- Added /size command for Lobby
-- Added /color and /murder command to Freeplay (for the Hat Designers)
-
-**Version 2.7.1 and earlier**
-- See [TheOtherRoles/Eisbison](https://github.com/Eisbison/TheOtherRoles)
-</details>
+Go to [Releases/Changelog](#releases-and-changelog) or [Credits/Resources](#credits-and-resources).
 
 # Installation
+
+Step-by-step instructions to install the mod into Among Us.
 
 ### Windows
 
@@ -797,8 +771,37 @@ Here are a few instructions, on how to create a custom hat:
 
   </details>
   
+  # Releases and Changelog
+| Among Us - Version| Mod Version | Link |
+|----------|-------------|-----------------|
+| 2021.6.30s| v2.8.1| [Download](https://github.com/BananaramaCS/TheOtherRoles/releases/download/v2.8.1/TheOtherRoles.zip)
+| 2021.6.30s| v2.7.3| [Download](https://github.com/BananaramaCS/TheOtherRoles/releases/download/v2.7.3/TheOtherRoles.zip)
 
-# Credits & Resources
+<details>
+  <summary>Click to show the Changelog</summary>
+
+**Hotfix 2.8.1**
+- Fixed a game breaking bug where killing the Bait resulted in a ban of the Bait
+
+**Version 2.8.0**
+- **New Role:** [Bait](#bait) created by [Mallöris](https://github.com/Mallaris) 
+- Added Tracker Option: "Tracker Reset Target After Meeting" (feature created by [MaximeGillot](https://github.com/MaximeGillot))
+- Added Snitch Options: "Include Team Jackal" and "Use Different Arrow Color For Team Jackal" (feature created by [Mallöris](https://github.com/Mallaris))
+- Added Medic Option: "Shield Will Be Set After Next Meeting" (feature created by [Mallöris](https://github.com/Mallaris))
+
+**Version 2.7.3**
+- Updated to Among Us v2021.6.30
+- Updated BepInEx version
+- Updated Credentials
+- Fixed some Colors being considered darker, when they should be lighter
+- Added /size command for Lobby
+- Added /color and /murder command to Freeplay (for the Hat Designers)
+
+**Version 2.7.1 and earlier**
+- See [TheOtherRoles/Eisbison](https://github.com/Eisbison/TheOtherRoles)
+</details>
+
+# Credits and Resources
 
 <details>
   <summary> Click to expand. </summary>
