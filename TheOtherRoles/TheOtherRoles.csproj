@@ -1,4 +1,4 @@
-
+﻿
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
@@ -17,15 +17,15 @@
 		<EmbeddedResource Include="Resources\*.png" />
 		<EmbeddedResource Include="Resources\TricksterAnimation\*.png" />
 	</ItemGroup>
-
+	
 	<ItemGroup>
-		<Reference Include="../../../../../Program Files (x86)/Steam/steamapps/common/Among Us/BepInEx/core/*.dll" />
-		<Reference Include="../../../../../Program Files (x86)/Steam/steamapps/common/Among Us/BepInEx/unhollowed/*.dll" />
+        <Reference Include="$(AmongUs)/BepInEx/core/*.dll"/>
+        <Reference Include="$(AmongUs)/BepInEx/unhollowed/*.dll"/>
 	</ItemGroup>
-
+	
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
-		<Message Text="Second occurrence" />
+		<Message Text="Copying the dll -> $(AmongUs)/BepInEx/plugins/" Importance="high" />
 		<!-- <Copy SourceFiles="$(ProjectDir)\bin\$(Configuration)\netstandard2.1\TheOtherRoles.dll" DestinationFolder="$(AmongUsLatest)/BepInEx/plugins/" /> -->
-		<Copy SourceFiles="$(ProjectDir)\bin\$(Configuration)\netstandard2.1\TheOtherRoles.dll" DestinationFolder="../../../../../Program Files (x86)/Steam/steamapps/common/Among Us/BepInEx/plugins/" />
+		<Copy SourceFiles="$(ProjectDir)\bin\$(Configuration)\netstandard2.1\TheOtherRoles.dll" DestinationFolder="$(AmongUs)/BepInEx/plugins/" />
 	</Target>
 </Project>

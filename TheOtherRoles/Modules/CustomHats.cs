@@ -372,7 +372,8 @@ namespace TheOtherRoles.Modules {
 
                 var orderedKeys = packages.Keys.OrderBy((string x) => {
                     if (x == innerslothPackageName) return 1000;
-                    if (x == "Developer Hats") return 0;
+                    if (x == "Bananarama Hats") return 0;
+                    if (x == "Developer Hats") return 10;
                     return 500;
                 });
                 foreach (string key in orderedKeys) {
