@@ -74,6 +74,7 @@ Not working? You might want to install the dependency [vc_redist](https://aka.ms
 |  | [Time Master](#time-master) |  |  |
 |  |  [Tracker](#tracker) |  |  |
 |  |  [Bait](#bait) |  |
+|  |  [Haunter](#haunter) |  |
 
 ![RoleOverview](./Images/TOR_roles.jpg)
 
@@ -829,7 +830,26 @@ an outline or all vents do).
 | Bait Spawn Chance | -
 | Bait Highlight All Vents | If set to true, all vents will be highlighted if a player is inside of one of them. If set to false, only the vents where players are siting in will be highlighted.
 | Bait Report Delay | -
+-----------------------
 
+
+
+[Go back up](#roles)
+
+## Haunter
+### **Team: Crewmates**
+The Haunter is a Crewmate that if killed, haunts their murderer.\
+The Haunter can force the haunted imposter to kill once on command (Button or Key Q).\
+**Note:**
+- The Haunter can force their murderer to kill in front of others.
+- The haunted imposter can also be forced to kill their fellow team imposters.
+- The Haunter does not see the roles of other players when dead until they can no longer remote kill.
+
+### Game Options
+| Name | Description
+|----------|:-------------:|
+| Haunter Spawn Chance | -
+-----------------------
 
 # Custom Hats
 
