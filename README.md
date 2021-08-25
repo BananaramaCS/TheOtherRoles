@@ -54,26 +54,23 @@ Not working? You might want to install the dependency [vc_redist](https://aka.ms
 
 # Roles
 
-| Impostors | Crewmates | Neutral | Secondary |
-|----------|-------------|-----------------|----------------|
-| [Evil Mini](#mini) | [Nice Mini](#mini) | [Arsonist](#arsonist) | [Lover](#lovers) |
-| [Evil Guesser](#guesser) | [Nice Guesser](#guesser) | [Jester](#jester) |  |
-| [Bounty Hunter](#bounty-hunter) | [Detective](#detective) | [Jackal](#jackal) |  |
-| [Camouflager](#camouflager) | [Engineer](#engineer) | [Sidekick](#sidekick) |  |
-| [Cleaner](#cleaner) | [Hacker](#hacker) |  |  |
-| [Eraser](#eraser) | [Lighter](#lighter) |  |  |
-| [Godfather (Mafia)](#mafia) | [Mayor](#mayor) |  |  |
-| [Mafioso (Mafia)](#mafia) | [Medic](#medic) |  |  |
-| [Janitor (Mafia)](#mafia)  | [Security Guard](#security-guard) |  |  |
-| [Morphling](#morphling) | [Seer](#seer) |  |  |
-| [Trickster](#trickster) | [Sheriff](#sheriff) |  |  |
-| [Vampire](#vampire) | [Shifter](#shifter) |  |  |
-| [Warlock](#warlock) | [Snitch](#snitch) |  |  |
-|  | [Spy](#spy) |  |  |
-|  | [Swapper](#swapper) |  |  |
-|  | [Time Master](#time-master) |  |  |
-|  |  [Tracker](#tracker) |  |  |
-|  |  [Bait](#bait) |  |
+| Impostors                       ||| Crewmates                  |                      ||| Neutral                         ||| Secondary |
+| :---:                          |-|-| :---:                     | :---:               |-|-| :---:                         |-|-| :---: |
+| [Bounty Hunter](#bounty-hunter) ||| [Bait](#bait)              | [Shifter](#shifter)  ||| [Arsonist](#arsonist)           ||| [Lovers](#lovers) |
+| [Camouflager](#camouflager)     ||| [Detective](#detective)    | [Snitch](#snitch)    ||| [Jackal](#jackal)               |||  |
+| [Cleaner](#cleaner)             ||| [Engineer](#engineer)      | [Spy](#spy)          ||| [Jester](#jester)               |||  |
+| [Eraser](#eraser)               ||| [Hacker](#hacker)          | [Swapper](#swapper)  ||| [Sidekick (Jackal)](#sidekick)  |||  |
+| [Evil Guesser](#guesser)        ||| [Haunter](#haunter)        | [Time Master](#time-master) |||                          |||  |
+| [Evil Mini](#mini)              ||| [Lighter](#lighter)        | [Tracker](#tracker)  |||                                 |||  |
+| [Godfather (Mafia)](#mafia)     ||| [Mayor](#mayor)            |                      |||                                 |||  |
+| [Janitor (Mafia)](#mafia)       ||| [Medic](#medic)            |                      |||                                 |||  |
+| [Mafioso (Mafia)](#mafia)       ||| [Nice Guesser](#guesser)   |                      |||                                 |||  |
+| [Morphling](#morphling)         ||| [Nice Mini](#mini)         |                      |||                                 |||  |
+| [Trickster](#trickster)         ||| [Security Guard](#security-guard) |               |||                                 |||  |
+| [Vampire](#vampire)             ||| [Seer](#seer)              |                      |||                                 |||  |
+| [Warlock](#warlock)             ||| [Sheriff](#sheriff)        |                      |||                                 |||  |
+
+
 
 ![RoleOverview](./Images/TOR_roles.jpg)
 
@@ -829,7 +826,26 @@ an outline or all vents do).
 | Bait Spawn Chance | -
 | Bait Highlight All Vents | If set to true, all vents will be highlighted if a player is inside of one of them. If set to false, only the vents where players are siting in will be highlighted.
 | Bait Report Delay | -
+-----------------------
 
+
+
+[Go back up](#roles)
+
+## Haunter
+### **Team: Crewmates**
+The Haunter is a Crewmate that if killed, haunts their murderer.\
+The Haunter can force the haunted imposter to kill once on command (Button or Key Q).\
+**Note:**
+- The Haunter can force their murderer to kill in front of others.
+- The haunted imposter can also be forced to kill their fellow team imposters.
+- The Haunter does not see the roles of other players when dead until they can no longer remote kill.
+
+### Game Options
+| Name | Description
+|----------|:-------------:|
+| Haunter Spawn Chance | -
+-----------------------
 
 # Custom Hats
 
