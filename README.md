@@ -54,27 +54,23 @@ Not working? You might want to install the dependency [vc_redist](https://aka.ms
 
 # Roles
 
-| Impostors | Crewmates | Neutral | Secondary |
-|----------|-------------|-----------------|----------------|
-| [Bounty Hunter](#bounty-hunter) | [Bait](#bait)              | [Arsonist](#arsonist) | [Lover](#lovers) |
-| [Camouflager](#camouflager)     | [Detective](#detective)    | [Jackal](#jackal) |  |
-| [Cleaner](#cleaner)             | [Engineer](#engineer)      | [Jester](#jester) |  |
-| [Eraser](#eraser)               | [Hacker](#hacker)          | [Sidekick (Jackal)](#sidekick) |  |
-| [Evil Guesser](#guesser)        | [Haunter](#haunter) |  |  |
-| [Evil Mini](#mini)              | [Lighter](#lighter) |  |  |
-| [Godfather (Mafia)](#mafia)     | [Mayor](#mayor) |  |  |
-| [Janitor (Mafia)](#mafia)       | [Medic](#medic) |  |  |
-| [Mafioso (Mafia)](#mafia)       | [Nice Guesser](#guesser) |  |  |
-| [Morphling](#morphling)         | [Nice Mini](#mini) |  |  |
-| [Trickster](#trickster)         | [Security Guard](#security-guard) |  |  |
-| [Vampire](#vampire)             | [Seer](#seer) |  |  |
-| [Warlock](#warlock)             | [Sheriff](#sheriff) |  |  |
-|                                 | [Shifter](#shifter) |  |  |
-|                                 | [Snitch](#snitch) |  |  |
-|                                 | [Spy](#spy) |  |  |
-|                                 | [Swapper](#swapper) |  |  |
-|                                 | [Time Master](#time-master) |  |  |
-|                                 | [Tracker](#tracker) |  |  |
+| Impostors                       ||| Crewmates                  |                      ||| Neutral                         ||| Secondary |
+| :---:                          |-|-| :---:                     | :---:               |-|-| :---:                         |-|-| :---: |
+| [Bounty Hunter](#bounty-hunter) ||| [Bait](#bait)              | [Shifter](#shifter)  ||| [Arsonist](#arsonist)           ||| [Lovers](#lovers) |
+| [Camouflager](#camouflager)     ||| [Detective](#detective)    | [Snitch](#snitch)    ||| [Jackal](#jackal)               |||  |
+| [Cleaner](#cleaner)             ||| [Engineer](#engineer)      | [Spy](#spy)          ||| [Jester](#jester)               |||  |
+| [Eraser](#eraser)               ||| [Hacker](#hacker)          | [Swapper](#swapper)  ||| [Sidekick (Jackal)](#sidekick)  |||  |
+| [Evil Guesser](#guesser)        ||| [Haunter](#haunter)        | [Time Master](#time-master) |||                          |||  |
+| [Evil Mini](#mini)              ||| [Lighter](#lighter)        | [Tracker](#tracker)  |||                                 |||  |
+| [Godfather (Mafia)](#mafia)     ||| [Mayor](#mayor)            |                      |||                                 |||  |
+| [Janitor (Mafia)](#mafia)       ||| [Medic](#medic)            |                      |||                                 |||  |
+| [Mafioso (Mafia)](#mafia)       ||| [Nice Guesser](#guesser)   |                      |||                                 |||  |
+| [Morphling](#morphling)         ||| [Nice Mini](#mini)         |                      |||                                 |||  |
+| [Trickster](#trickster)         ||| [Security Guard](#security-guard) |               |||                                 |||  |
+| [Vampire](#vampire)             ||| [Seer](#seer)              |                      |||                                 |||  |
+| [Warlock](#warlock)             ||| [Sheriff](#sheriff)        |                      |||                                 |||  |
+
+
 
 ![RoleOverview](./Images/TOR_roles.jpg)
 
