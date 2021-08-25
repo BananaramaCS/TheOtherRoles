@@ -56,25 +56,25 @@ Not working? You might want to install the dependency [vc_redist](https://aka.ms
 
 | Impostors | Crewmates | Neutral | Secondary |
 |----------|-------------|-----------------|----------------|
-| [Evil Mini](#mini) | [Nice Mini](#mini) | [Arsonist](#arsonist) | [Lover](#lovers) |
-| [Evil Guesser](#guesser) | [Nice Guesser](#guesser) | [Jester](#jester) |  |
-| [Bounty Hunter](#bounty-hunter) | [Detective](#detective) | [Jackal](#jackal) |  |
-| [Camouflager](#camouflager) | [Engineer](#engineer) | [Sidekick](#sidekick) |  |
-| [Cleaner](#cleaner) | [Hacker](#hacker) |  |  |
-| [Eraser](#eraser) | [Lighter](#lighter) |  |  |
-| [Godfather (Mafia)](#mafia) | [Mayor](#mayor) |  |  |
-| [Mafioso (Mafia)](#mafia) | [Medic](#medic) |  |  |
-| [Janitor (Mafia)](#mafia)  | [Security Guard](#security-guard) |  |  |
-| [Morphling](#morphling) | [Seer](#seer) |  |  |
-| [Trickster](#trickster) | [Sheriff](#sheriff) |  |  |
-| [Vampire](#vampire) | [Shifter](#shifter) |  |  |
-| [Warlock](#warlock) | [Snitch](#snitch) |  |  |
-|  | [Spy](#spy) |  |  |
-|  | [Swapper](#swapper) |  |  |
-|  | [Time Master](#time-master) |  |  |
-|  |  [Tracker](#tracker) |  |  |
-|  |  [Bait](#bait) |  |
-|  |  [Haunter](#haunter) |  |
+| [Bounty Hunter](#bounty-hunter) | [Bait](#bait)              | [Arsonist](#arsonist) | [Lover](#lovers) |
+| [Camouflager](#camouflager)     | [Detective](#detective)    | [Jackal](#jackal) |  |
+| [Cleaner](#cleaner)             | [Engineer](#engineer)      | [Jester](#jester) |  |
+| [Eraser](#eraser)               | [Hacker](#hacker)          | [Sidekick (Jackal)](#sidekick) |  |
+| [Evil Guesser](#guesser)        | [Haunter](#haunter) |  |  |
+| [Evil Mini](#mini)              | [Lighter](#lighter) |  |  |
+| [Godfather (Mafia)](#mafia)     | [Mayor](#mayor) |  |  |
+| [Janitor (Mafia)](#mafia)       | [Medic](#medic) |  |  |
+| [Mafioso (Mafia)](#mafia)       | [Nice Guesser](#guesser) |  |  |
+| [Morphling](#morphling)         | [Nice Mini](#mini) |  |  |
+| [Trickster](#trickster)         | [Security Guard](#security-guard) |  |  |
+| [Vampire](#vampire)             | [Seer](#seer) |  |  |
+| [Warlock](#warlock)             | [Sheriff](#sheriff) |  |  |
+|                                 | [Shifter](#shifter) |  |  |
+|                                 | [Snitch](#snitch) |  |  |
+|                                 | [Spy](#spy) |  |  |
+|                                 | [Swapper](#swapper) |  |  |
+|                                 | [Time Master](#time-master) |  |  |
+|                                 | [Tracker](#tracker) |  |  |
 
 ![RoleOverview](./Images/TOR_roles.jpg)
 
