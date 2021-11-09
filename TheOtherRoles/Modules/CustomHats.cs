@@ -349,6 +349,21 @@ namespace TheOtherRoles.Modules {
                 hatsTabCustomTexts = new List<TMPro.TMP_Text>();
 
                 foreach (HatBehaviour hatBehaviour in unlockedHats) {
+                    // Exclude specific hats for certain players
+                    bool playerIsAmanda = PlayerControl.LocalPlayer.name.IndexOf("amanda", System.StringComparison.OrdinalIgnoreCase) >= 0;
+                    bool playerIsChristian = PlayerControl.LocalPlayer.name.IndexOf("christian", System.StringComparison.OrdinalIgnoreCase) >= 0;
+
+                    TheOtherRolesPlugin.Instance.Log.LogWarning("Currently Checking : " + hatBehaviour.name);
+
+                    if ((hatBehaviour.name == "Happy Bdaymanda" || hatBehaviour.name == "Happy Bdaymanda2") && !playerIsAmanda) {
+                        TheOtherRolesPlugin.Instance.Log.LogError("Bmanda found! try to skip : " + hatBehaviour.name);
+                        continue;
+                    }
+                    if ((hatBehaviour.name == "Bday Chris" || hatBehaviour.name == "Bday Chris2") && !playerIsChristian) {
+                        TheOtherRolesPlugin.Instance.Log.LogError("Chris bday found! try to skip : " + hatBehaviour.name);
+                        continue;
+                    }
+
                     HatExtension ext = hatBehaviour.getHatExtension();
 
                     if (ext != null) {

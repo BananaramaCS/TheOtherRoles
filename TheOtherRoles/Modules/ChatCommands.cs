@@ -65,6 +65,18 @@ namespace TheOtherRoles.Modules {
                         PlayerControl.LocalPlayer.transform.position = target.transform.position;
                         handled = true;
                     }
+                    if (handled == false) {
+                        TheOtherRolesPlugin.Instance.Log.LogError("Player name not found.");
+                        TheOtherRolesPlugin.Instance.Log.LogError("Searching for ID now..");
+                        string resultString = System.Text.RegularExpressions.Regex.Match(text, @"\d+").Value;
+                        int playerNumber = Int32.Parse(resultString);
+                        byte playerID = Convert.ToByte(playerNumber);
+                        PlayerControl newtarget = PlayerControl.AllPlayerControls.ToArray().ToList().FirstOrDefault(x => x.Data.PlayerId.Equals(playerID));
+                        if (newtarget != null) {
+                            PlayerControl.LocalPlayer.transform.position = newtarget.transform.position;
+                            handled = true;
+                        }
+                    }
                 }
 
                 if (handled) {
