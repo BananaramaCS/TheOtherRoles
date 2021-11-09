@@ -832,19 +832,48 @@ an outline or all vents do).
 
 [Go back up](#roles)
 
-## Haunter
+## Medium
 ### **Team: Crewmates**
-The Haunter is a Crewmate that if killed, haunts their murderer.\
-The Haunter can force the haunted imposter to kill once on command (Button or Key Q).\
-**Note:**
-- The Haunter can force their murderer to kill in front of others.
-- The haunted imposter can also be forced to kill their fellow team imposters.
-- The Haunter does not see the roles of other players when dead until they can no longer remote kill.
+\
+Created by [Mallöris](https://github.com/Mallaris)\
+\
+The medium is a crewmate who can ask the souls of dead players for information. Like the Seer, it sees the places where the players have died (after the next meeting) and can question them. It then gets random information about the soul or the killer in the chat. The souls only stay for one round, i.e. until the next meeting. Depending on the options, the souls can only be questioned once and then disappear.
+
+Questions:
+What is your Role?
+What is your killer's color type?
+When did you die?
+What is your killers role? (mini exluded)
+
+
+[Go back up](#roles)
+
+## Vulture
+### **Team: Neutral**
+\
+Created by [Mallöris](https://github.com/Mallaris)\
+\
+The Vulture does not have any tasks, he has to win the game as a solo.\
+The Vulture is a neutral role that must eat a specified number of corpses (depending on the options) in order to win.\
+Depending on the options, when a player dies, the Vulture gets an arrow pointing to the corpse.
+
+### Game Options
+| Name | Description |
+|----------|:-------------:|
+| Vulture Spawn Chance | -
+| Vulture Countdown | -
+| Number Of Corpses Needed To Be Eaten | Corpes needed to be eaten to win the game
+| Vulture Can Use Vents | -
+| Show Arrows Pointing Towards The Corpes | -
+
 
 ### Game Options
 | Name | Description
 |----------|:-------------:|
-| Haunter Spawn Chance | -
+| Medium Spawn Chance | -
+| Medium Cooldown | -
+| Medium Duration | The time it takes to question a soul
+| Medium Each Soul Can Only Be Questioned Once | If set to true, souls can only be questioned once and then disappear
 -----------------------
 
 # Custom Hats
